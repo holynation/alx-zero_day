@@ -1,1 +1,3 @@
-<?php `git pull origin main`;
+<?php 
+$output = `git pull origin main`;
+echo $output;
